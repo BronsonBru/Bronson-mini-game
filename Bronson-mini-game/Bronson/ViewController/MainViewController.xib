@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="MiniGames" customModuleProvider="target">
+            <connections>
+                <outlet property="card" destination="XHc-Mw-vpe" id="o5K-gb-vYC"/>
+                <outlet property="card2" destination="8Qs-7y-ULz" id="rZC-p2-sED"/>
+                <outlet property="container2" destination="Khl-NQ-lNl" id="X7v-17-cUh"/>
+                <outlet property="containerStackView" destination="TdW-MY-enH" id="GNO-io-N2X"/>
+                <outlet property="greenCheck" destination="vyN-aT-d3o" id="Uds-vw-v1G"/>
+                <outlet property="greenCheck2" destination="Bi3-0R-Clx" id="4cy-8e-HGH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Qs-7y-ULz">
+                    <rect key="frame" x="25" y="77" width="340" height="713"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Khl-NQ-lNl">
+                            <rect key="frame" x="0.0" y="0.0" width="340" height="688"/>
+                        </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greencheck" translatesAutoresizingMaskIntoConstraints="NO" id="Bi3-0R-Clx">
+                            <rect key="frame" x="0.0" y="0.0" width="340" height="688"/>
+                        </imageView>
+                    </subviews>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Khl-NQ-lNl" secondAttribute="trailing" id="JLE-tx-RIY"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Khl-NQ-lNl" secondAttribute="bottom" id="RF9-LX-XHc"/>
+                        <constraint firstAttribute="bottom" secondItem="Bi3-0R-Clx" secondAttribute="bottom" constant="25" id="YB0-Az-7Ca"/>
+                        <constraint firstAttribute="bottom" secondItem="Khl-NQ-lNl" secondAttribute="bottom" constant="25" id="d5Q-Ql-XeZ"/>
+                        <constraint firstItem="Khl-NQ-lNl" firstAttribute="leading" secondItem="8Qs-7y-ULz" secondAttribute="leading" id="e9i-3T-RqN"/>
+                        <constraint firstItem="Bi3-0R-Clx" firstAttribute="leading" secondItem="8Qs-7y-ULz" secondAttribute="leading" id="gKQ-ar-hJw"/>
+                        <constraint firstAttribute="trailing" secondItem="Bi3-0R-Clx" secondAttribute="trailing" id="if0-ne-Uw5"/>
+                        <constraint firstItem="Bi3-0R-Clx" firstAttribute="top" secondItem="8Qs-7y-ULz" secondAttribute="top" id="mHa-jg-bm7"/>
+                        <constraint firstItem="Khl-NQ-lNl" firstAttribute="top" secondItem="8Qs-7y-ULz" secondAttribute="top" id="vaU-6N-YzF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XHc-Mw-vpe">
+                    <rect key="frame" x="25" y="77" width="340" height="713"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TdW-MY-enH">
+                            <rect key="frame" x="0.0" y="0.0" width="340" height="688"/>
+                        </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greencheck" translatesAutoresizingMaskIntoConstraints="NO" id="vyN-aT-d3o">
+                            <rect key="frame" x="0.0" y="0.0" width="340" height="688"/>
+                        </imageView>
+                    </subviews>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vyN-aT-d3o" secondAttribute="trailing" id="Guk-oR-1Yg"/>
+                        <constraint firstItem="vyN-aT-d3o" firstAttribute="leading" secondItem="XHc-Mw-vpe" secondAttribute="leading" id="KPH-Mt-7nP"/>
+                        <constraint firstAttribute="trailing" secondItem="TdW-MY-enH" secondAttribute="trailing" id="Oob-gA-yD6"/>
+                        <constraint firstItem="TdW-MY-enH" firstAttribute="top" secondItem="XHc-Mw-vpe" secondAttribute="top" id="T7K-gZ-iLf"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TdW-MY-enH" secondAttribute="bottom" id="TOL-2O-Uco"/>
+                        <constraint firstItem="TdW-MY-enH" firstAttribute="leading" secondItem="XHc-Mw-vpe" secondAttribute="leading" id="YBL-5H-wCb"/>
+                        <constraint firstAttribute="bottom" secondItem="TdW-MY-enH" secondAttribute="bottom" constant="25" id="YnJ-hB-yJG"/>
+                        <constraint firstItem="vyN-aT-d3o" firstAttribute="top" secondItem="XHc-Mw-vpe" secondAttribute="top" id="YvZ-es-VZh"/>
+                        <constraint firstAttribute="bottom" secondItem="vyN-aT-d3o" secondAttribute="bottom" constant="25" id="x44-EX-ARx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="XHc-Mw-vpe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="32c-2r-muc"/>
+                <constraint firstItem="XHc-Mw-vpe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="7Xz-WT-Abo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8Qs-7y-ULz" secondAttribute="bottom" constant="20" id="AEY-mV-hVD"/>
+                <constraint firstItem="8Qs-7y-ULz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="BPq-9u-jjY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8Qs-7y-ULz" secondAttribute="trailing" constant="25" id="ERU-Qn-JYq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XHc-Mw-vpe" secondAttribute="trailing" constant="25" id="jZt-hS-rNH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XHc-Mw-vpe" secondAttribute="bottom" constant="20" id="luS-Nl-KSz"/>
+                <constraint firstItem="8Qs-7y-ULz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="ozz-Ok-dZC"/>
+            </constraints>
+            <point key="canvasLocation" x="107.69230769230769" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="greencheck" width="356" height="613"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

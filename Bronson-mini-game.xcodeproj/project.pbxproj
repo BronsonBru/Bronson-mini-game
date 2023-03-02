@@ -13,6 +13,37 @@
 		CF5214E329B0DB1300FEA484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5214E129B0DB1300FEA484 /* Main.storyboard */; };
 		CF5214E529B0DB1500FEA484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5214E429B0DB1500FEA484 /* Assets.xcassets */; };
 		CF5214E829B0DB1500FEA484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5214E629B0DB1500FEA484 /* LaunchScreen.storyboard */; };
+		CF52150429B0DB2800FEA484 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214F129B0DB2800FEA484 /* OnboardingViewController.swift */; };
+		CF52150529B0DB2800FEA484 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214F229B0DB2800FEA484 /* PageCell.swift */; };
+		CF52150629B0DB2800FEA484 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214F329B0DB2800FEA484 /* SwipingController.swift */; };
+		CF52150729B0DB2800FEA484 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214F529B0DB2800FEA484 /* CardView.swift */; };
+		CF52150829B0DB2800FEA484 /* AboutUs.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5214F629B0DB2800FEA484 /* AboutUs.xib */; };
+		CF52150929B0DB2800FEA484 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5214F729B0DB2800FEA484 /* CardView.xib */; };
+		CF52150A29B0DB2800FEA484 /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214F929B0DB2800FEA484 /* PhotoData.swift */; };
+		CF52150B29B0DB2800FEA484 /* answerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214FA29B0DB2800FEA484 /* answerData.swift */; };
+		CF52150C29B0DB2800FEA484 /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214FB29B0DB2800FEA484 /* OnboardingData.swift */; };
+		CF52150D29B0DB2800FEA484 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF5214FD29B0DB2800FEA484 /* MainViewController.xib */; };
+		CF52150E29B0DB2800FEA484 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214FE29B0DB2800FEA484 /* MainViewController.swift */; };
+		CF52150F29B0DB2800FEA484 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5214FF29B0DB2800FEA484 /* PlayViewController.swift */; };
+		CF52151029B0DB2800FEA484 /* EndStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52150029B0DB2800FEA484 /* EndStateViewController.swift */; };
+		CF52151129B0DB2800FEA484 /* EndStateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF52150129B0DB2800FEA484 /* EndStateViewController.xib */; };
+		CF52151229B0DB2800FEA484 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF52150229B0DB2800FEA484 /* AboutUsViewController.xib */; };
+		CF52151329B0DB2800FEA484 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52150329B0DB2800FEA484 /* AboutUsViewController.swift */; };
+		CF52151629B0DDBE00FEA484 /* Localizable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52151429B0DDBD00FEA484 /* Localizable.generated.swift */; };
+		CF52151729B0DDBE00FEA484 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF52151529B0DDBE00FEA484 /* Localizable.strings */; };
+		CF52151C29B0DE0400FEA484 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52151929B0DE0400FEA484 /* TextStyle.swift */; };
+		CF52151D29B0DE0400FEA484 /* Register-Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52151A29B0DE0400FEA484 /* Register-Dequeue.swift */; };
+		CF52151E29B0DE0400FEA484 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52151B29B0DE0400FEA484 /* NibLoadable.swift */; };
+		CF52152129B0DECF00FEA484 /* Assets.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52151F29B0DECF00FEA484 /* Assets.generated.swift */; };
+		CF52152229B0DECF00FEA484 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152029B0DECF00FEA484 /* Theme.swift */; };
+		CF52152C29B0DF1400FEA484 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152429B0DF1400FEA484 /* UIApplication+Extension.swift */; };
+		CF52152D29B0DF1400FEA484 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152529B0DF1400FEA484 /* Array+Extensions.swift */; };
+		CF52152E29B0DF1400FEA484 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152629B0DF1400FEA484 /* UIViewController+Extensions.swift */; };
+		CF52152F29B0DF1400FEA484 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152729B0DF1400FEA484 /* UIView+Extensions.swift */; };
+		CF52153029B0DF1400FEA484 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152829B0DF1400FEA484 /* UINavigationController+Extension.swift */; };
+		CF52153129B0DF1400FEA484 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152929B0DF1400FEA484 /* Bundle+Extension.swift */; };
+		CF52153229B0DF1400FEA484 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152A29B0DF1400FEA484 /* UserDefaults+Extensions.swift */; };
+		CF52153329B0DF1400FEA484 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF52152B29B0DF1400FEA484 /* UILabel+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +55,37 @@
 		CF5214E429B0DB1500FEA484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF5214E729B0DB1500FEA484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF5214E929B0DB1500FEA484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5214F129B0DB2800FEA484 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CF5214F229B0DB2800FEA484 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		CF5214F329B0DB2800FEA484 /* SwipingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		CF5214F529B0DB2800FEA484 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CF5214F629B0DB2800FEA484 /* AboutUs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUs.xib; sourceTree = "<group>"; };
+		CF5214F729B0DB2800FEA484 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		CF5214F929B0DB2800FEA484 /* PhotoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		CF5214FA29B0DB2800FEA484 /* answerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = answerData.swift; sourceTree = "<group>"; };
+		CF5214FB29B0DB2800FEA484 /* OnboardingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
+		CF5214FD29B0DB2800FEA484 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		CF5214FE29B0DB2800FEA484 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF5214FF29B0DB2800FEA484 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		CF52150029B0DB2800FEA484 /* EndStateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndStateViewController.swift; sourceTree = "<group>"; };
+		CF52150129B0DB2800FEA484 /* EndStateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EndStateViewController.xib; sourceTree = "<group>"; };
+		CF52150229B0DB2800FEA484 /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		CF52150329B0DB2800FEA484 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		CF52151429B0DDBD00FEA484 /* Localizable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.generated.swift; sourceTree = "<group>"; };
+		CF52151529B0DDBE00FEA484 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CF52151929B0DE0400FEA484 /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		CF52151A29B0DE0400FEA484 /* Register-Dequeue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Register-Dequeue.swift"; sourceTree = "<group>"; };
+		CF52151B29B0DE0400FEA484 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		CF52151F29B0DECF00FEA484 /* Assets.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assets.generated.swift; path = Assets.xcassets/Assets.generated.swift; sourceTree = "<group>"; };
+		CF52152029B0DECF00FEA484 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Assets.xcassets/Theme.swift; sourceTree = "<group>"; };
+		CF52152429B0DF1400FEA484 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		CF52152529B0DF1400FEA484 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		CF52152629B0DF1400FEA484 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		CF52152729B0DF1400FEA484 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		CF52152829B0DF1400FEA484 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		CF52152929B0DF1400FEA484 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		CF52152A29B0DF1400FEA484 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		CF52152B29B0DF1400FEA484 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +118,104 @@
 		CF5214DA29B0DB1300FEA484 /* Bronson-mini-game */ = {
 			isa = PBXGroup;
 			children = (
+				CF5214EF29B0DB2800FEA484 /* Bronson */,
 				CF5214DB29B0DB1300FEA484 /* AppDelegate.swift */,
+				CF52151829B0DE0400FEA484 /* Utilities */,
 				CF5214DD29B0DB1300FEA484 /* SceneDelegate.swift */,
 				CF5214DF29B0DB1300FEA484 /* ViewController.swift */,
 				CF5214E129B0DB1300FEA484 /* Main.storyboard */,
+				CF52151F29B0DECF00FEA484 /* Assets.generated.swift */,
+				CF52152029B0DECF00FEA484 /* Theme.swift */,
 				CF5214E429B0DB1500FEA484 /* Assets.xcassets */,
 				CF5214E629B0DB1500FEA484 /* LaunchScreen.storyboard */,
 				CF5214E929B0DB1500FEA484 /* Info.plist */,
 			);
 			path = "Bronson-mini-game";
 			sourceTree = "<group>";
+		};
+		CF5214EF29B0DB2800FEA484 /* Bronson */ = {
+			isa = PBXGroup;
+			children = (
+				CF5214F029B0DB2800FEA484 /* swiper */,
+				CF5214F429B0DB2800FEA484 /* Card */,
+				CF5214F829B0DB2800FEA484 /* Model */,
+				CF5214FC29B0DB2800FEA484 /* ViewController */,
+			);
+			path = Bronson;
+			sourceTree = "<group>";
+		};
+		CF5214F029B0DB2800FEA484 /* swiper */ = {
+			isa = PBXGroup;
+			children = (
+				CF5214F129B0DB2800FEA484 /* OnboardingViewController.swift */,
+				CF5214F229B0DB2800FEA484 /* PageCell.swift */,
+				CF5214F329B0DB2800FEA484 /* SwipingController.swift */,
+			);
+			path = swiper;
+			sourceTree = "<group>";
+		};
+		CF5214F429B0DB2800FEA484 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				CF5214F529B0DB2800FEA484 /* CardView.swift */,
+				CF5214F629B0DB2800FEA484 /* AboutUs.xib */,
+				CF5214F729B0DB2800FEA484 /* CardView.xib */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		CF5214F829B0DB2800FEA484 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF5214F929B0DB2800FEA484 /* PhotoData.swift */,
+				CF5214FA29B0DB2800FEA484 /* answerData.swift */,
+				CF5214FB29B0DB2800FEA484 /* OnboardingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF5214FC29B0DB2800FEA484 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF5214FD29B0DB2800FEA484 /* MainViewController.xib */,
+				CF5214FE29B0DB2800FEA484 /* MainViewController.swift */,
+				CF5214FF29B0DB2800FEA484 /* PlayViewController.swift */,
+				CF52150029B0DB2800FEA484 /* EndStateViewController.swift */,
+				CF52150129B0DB2800FEA484 /* EndStateViewController.xib */,
+				CF52150229B0DB2800FEA484 /* AboutUsViewController.xib */,
+				CF52150329B0DB2800FEA484 /* AboutUsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CF52151829B0DE0400FEA484 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF52152329B0DF1400FEA484 /* Extensions */,
+				CF52151429B0DDBD00FEA484 /* Localizable.generated.swift */,
+				CF52151529B0DDBE00FEA484 /* Localizable.strings */,
+				CF52151929B0DE0400FEA484 /* TextStyle.swift */,
+				CF52151A29B0DE0400FEA484 /* Register-Dequeue.swift */,
+				CF52151B29B0DE0400FEA484 /* NibLoadable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CF52152329B0DF1400FEA484 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF52152429B0DF1400FEA484 /* UIApplication+Extension.swift */,
+				CF52152529B0DF1400FEA484 /* Array+Extensions.swift */,
+				CF52152629B0DF1400FEA484 /* UIViewController+Extensions.swift */,
+				CF52152729B0DF1400FEA484 /* UIView+Extensions.swift */,
+				CF52152829B0DF1400FEA484 /* UINavigationController+Extension.swift */,
+				CF52152929B0DF1400FEA484 /* Bundle+Extension.swift */,
+				CF52152A29B0DF1400FEA484 /* UserDefaults+Extensions.swift */,
+				CF52152B29B0DF1400FEA484 /* UILabel+Extensions.swift */,
+			);
+			name = Extensions;
+			path = "Bronson-mini-game/Extensions";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -126,8 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5214E829B0DB1500FEA484 /* LaunchScreen.storyboard in Resources */,
+				CF52150D29B0DB2800FEA484 /* MainViewController.xib in Resources */,
 				CF5214E529B0DB1500FEA484 /* Assets.xcassets in Resources */,
+				CF52151129B0DB2800FEA484 /* EndStateViewController.xib in Resources */,
+				CF52151729B0DDBE00FEA484 /* Localizable.strings in Resources */,
+				CF52151229B0DB2800FEA484 /* AboutUsViewController.xib in Resources */,
+				CF52150929B0DB2800FEA484 /* CardView.xib in Resources */,
 				CF5214E329B0DB1300FEA484 /* Main.storyboard in Resources */,
+				CF52150829B0DB2800FEA484 /* AboutUs.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +294,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF52152E29B0DF1400FEA484 /* UIViewController+Extensions.swift in Sources */,
+				CF52153229B0DF1400FEA484 /* UserDefaults+Extensions.swift in Sources */,
+				CF52151C29B0DE0400FEA484 /* TextStyle.swift in Sources */,
+				CF52150729B0DB2800FEA484 /* CardView.swift in Sources */,
+				CF52153129B0DF1400FEA484 /* Bundle+Extension.swift in Sources */,
+				CF52151D29B0DE0400FEA484 /* Register-Dequeue.swift in Sources */,
+				CF52152D29B0DF1400FEA484 /* Array+Extensions.swift in Sources */,
+				CF52151E29B0DE0400FEA484 /* NibLoadable.swift in Sources */,
+				CF52152F29B0DF1400FEA484 /* UIView+Extensions.swift in Sources */,
+				CF52153029B0DF1400FEA484 /* UINavigationController+Extension.swift in Sources */,
+				CF52151029B0DB2800FEA484 /* EndStateViewController.swift in Sources */,
+				CF52150E29B0DB2800FEA484 /* MainViewController.swift in Sources */,
 				CF5214E029B0DB1300FEA484 /* ViewController.swift in Sources */,
+				CF52151329B0DB2800FEA484 /* AboutUsViewController.swift in Sources */,
+				CF52150529B0DB2800FEA484 /* PageCell.swift in Sources */,
+				CF52151629B0DDBE00FEA484 /* Localizable.generated.swift in Sources */,
+				CF52150F29B0DB2800FEA484 /* PlayViewController.swift in Sources */,
 				CF5214DC29B0DB1300FEA484 /* AppDelegate.swift in Sources */,
+				CF52150B29B0DB2800FEA484 /* answerData.swift in Sources */,
+				CF52152C29B0DF1400FEA484 /* UIApplication+Extension.swift in Sources */,
+				CF52153329B0DF1400FEA484 /* UILabel+Extensions.swift in Sources */,
 				CF5214DE29B0DB1300FEA484 /* SceneDelegate.swift in Sources */,
+				CF52150C29B0DB2800FEA484 /* OnboardingData.swift in Sources */,
+				CF52150429B0DB2800FEA484 /* OnboardingViewController.swift in Sources */,
+				CF52150A29B0DB2800FEA484 /* PhotoData.swift in Sources */,
+				CF52152229B0DECF00FEA484 /* Theme.swift in Sources */,
+				CF52150629B0DB2800FEA484 /* SwipingController.swift in Sources */,
+				CF52152129B0DECF00FEA484 /* Assets.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

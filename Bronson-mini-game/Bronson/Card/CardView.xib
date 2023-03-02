@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB" customClass="CardView" customModule="MiniGames" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="442" height="652"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h3a-Ed-G2C">
+                    <rect key="frame" x="0.0" y="0.0" width="442" height="652"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qyK-pk-h0X">
+                            <rect key="frame" x="0.0" y="0.0" width="442" height="652"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="748" verticalCompressionResistancePriority="748" image="nata" translatesAutoresizingMaskIntoConstraints="NO" id="Ub0-VT-FWa">
+                                    <rect key="frame" x="0.0" y="0.0" width="442" height="500"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="500" id="bkg-zp-5yW"/>
+                                    </constraints>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hW6-qL-7Bq">
+                                    <rect key="frame" x="0.0" y="500" width="442" height="152"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" text="Spot the witch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9d-AI-uZx">
+                                            <rect key="frame" x="0.0" y="15" width="442" height="117"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="A9d-AI-uZx" secondAttribute="bottom" constant="20" id="Cro-o4-0G2"/>
+                                        <constraint firstItem="A9d-AI-uZx" firstAttribute="top" secondItem="hW6-qL-7Bq" secondAttribute="top" constant="15" id="IZo-Et-uRp"/>
+                                        <constraint firstAttribute="trailing" secondItem="A9d-AI-uZx" secondAttribute="trailing" id="Wym-ls-pNY"/>
+                                        <constraint firstItem="A9d-AI-uZx" firstAttribute="leading" secondItem="hW6-qL-7Bq" secondAttribute="leading" id="lPd-pf-DKz"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <viewLayoutGuide key="safeArea" id="zbw-W4-xzr"/>
+                        </stackView>
+                    </subviews>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="qyK-pk-h0X" firstAttribute="leading" secondItem="h3a-Ed-G2C" secondAttribute="leading" id="2Wg-aW-IyI"/>
+                        <constraint firstAttribute="bottom" secondItem="qyK-pk-h0X" secondAttribute="bottom" id="Bcv-dk-6wT"/>
+                        <constraint firstAttribute="trailing" secondItem="qyK-pk-h0X" secondAttribute="trailing" id="dD3-n7-sqd"/>
+                        <constraint firstItem="qyK-pk-h0X" firstAttribute="top" secondItem="h3a-Ed-G2C" secondAttribute="top" id="eZf-yv-EL5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="h3a-Ed-G2C" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0L0-GS-R96"/>
+                <constraint firstAttribute="bottom" secondItem="h3a-Ed-G2C" secondAttribute="bottom" id="Bec-p4-5Yr"/>
+                <constraint firstAttribute="trailing" secondItem="h3a-Ed-G2C" secondAttribute="trailing" id="u3e-c5-mzI"/>
+                <constraint firstItem="h3a-Ed-G2C" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v9z-pK-q3I"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="card" destination="h3a-Ed-G2C" id="Bb3-Py-5Sa"/>
+                <outlet property="imageText" destination="A9d-AI-uZx" id="Hz5-PQ-4aI"/>
+                <outlet property="imageView" destination="Ub0-VT-FWa" id="qRQ-Kg-UqD"/>
+            </connections>
+            <point key="canvasLocation" x="229.23076923076923" y="61.137440758293835"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nata" width="1830" height="2160"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EndStateViewController" customModule="MiniGames" customModuleProvider="target">
+            <connections>
+                <outlet property="attachmentDescriptionText" destination="11g-s9-ZIY" id="2po-yp-RX2"/>
+                <outlet property="attachmentStyleLabel" destination="cyF-Br-Zpk" id="B0k-t2-LdV"/>
+                <outlet property="attachmentTypeLabel" destination="1M4-aO-l0C" id="wUZ-HT-tf5"/>
+                <outlet property="endSateImage" destination="Tgh-Gh-nf9" id="YX4-oO-dAf"/>
+                <outlet property="restartButton" destination="fx0-jL-M3t" id="fyg-rE-aba"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="776"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuteGhosts" translatesAutoresizingMaskIntoConstraints="NO" id="Tgh-Gh-nf9">
+                    <rect key="frame" x="50" y="94" width="275" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="Dea-0W-Dmb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your attachment style is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyF-Br-Zpk">
+                    <rect key="frame" x="25" y="319" width="325" height="25.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1M4-aO-l0C">
+                    <rect key="frame" x="25" y="359.33333333333331" width="325" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fx0-jL-M3t">
+                    <rect key="frame" x="125" y="574" width="125" height="152"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Try Again"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11g-s9-ZIY">
+                    <rect key="frame" x="20" y="398.33333333333331" width="335" height="150.66666666666669"/>
+                    <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="1M4-aO-l0C" firstAttribute="top" secondItem="cyF-Br-Zpk" secondAttribute="bottom" constant="15" id="3dF-8h-Gqb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="fx0-jL-M3t" secondAttribute="bottom" constant="50" id="44e-bR-CcH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="11g-s9-ZIY" secondAttribute="trailing" constant="20" id="AGp-K1-7LO"/>
+                <constraint firstItem="11g-s9-ZIY" firstAttribute="top" secondItem="1M4-aO-l0C" secondAttribute="bottom" constant="15" id="C9w-tQ-gdk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="fx0-jL-M3t" secondAttribute="trailing" constant="125" id="Gew-qB-nCX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cyF-Br-Zpk" secondAttribute="trailing" constant="25" id="P7P-XG-rm1"/>
+                <constraint firstItem="Tgh-Gh-nf9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="35" id="QuC-uj-d7H"/>
+                <constraint firstItem="fx0-jL-M3t" firstAttribute="top" secondItem="11g-s9-ZIY" secondAttribute="bottom" constant="25" id="TgO-Sv-zox"/>
+                <constraint firstItem="11g-s9-ZIY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="VKv-Xz-DiU"/>
+                <constraint firstItem="1M4-aO-l0C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="bTA-p4-j5e"/>
+                <constraint firstItem="cyF-Br-Zpk" firstAttribute="top" secondItem="Tgh-Gh-nf9" secondAttribute="bottom" constant="25" id="ddK-Dh-fdz"/>
+                <constraint firstItem="fx0-jL-M3t" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="125" id="eun-vy-eYh"/>
+                <constraint firstItem="cyF-Br-Zpk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="iY1-Vw-Jeb"/>
+                <constraint firstItem="Tgh-Gh-nf9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="j1C-Ah-lRh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1M4-aO-l0C" secondAttribute="trailing" constant="25" id="tiX-Iw-J1x"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Tgh-Gh-nf9" secondAttribute="trailing" constant="50" id="zUm-S6-M0d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="31.297709923664122" y="59.154929577464792"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cuteGhosts" width="2000" height="2000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

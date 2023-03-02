@@ -1,0 +1,88 @@
+// Bronson Start
+"TABS.Tab1.title" = "Play";
+"TABS.Tab2.title" = "Help";
+"TABS.Tab3.title" = "About Me";
+//"QUESTIONS.Q1.text" = "Do you worry about abandonment?"
+//Bronson End
+
+"Disney.GameTitle.matchPerfect" = "The Perfect Match";
+"Disney.GameText.matchPerfect" = "The aim of this game is to find all the perfect matches in the shorts time.
+Rules :
+you're only allowed to rereal two cards at a time if it a match the cards will disappear and if not the cards will flip back over.
+There is 30s on the clock and 20 cards on the boards so test your memory, speed and win.
+NB to exit a play swipe Down on the screen";
+
+"Main.Welcome.header1" = "Welcome to";
+"Main.Howtoplay.Subheader" = "How to Play";
+"Main.Play" = "Play";
+"Main.Dismiss" = "Dismiss";
+
+"scoreState.AlertAction.Action1" = "Exit ";
+"scoreState.AlertAction.Action2" = "Play Again";
+"scoreState.WonState.Title" = "Congratulation !!";
+"scoreState.WonMessage.Won" = "you've Won";
+"scoreState.LoseTitle.LoseState" = "Game Over";
+"scoreState.LoseMessage.Lose" = "you've Lost";
+
+"MATCHGAME.ScoreLabel.text" = "Score 0:8";
+"MATCHGAME.TimerLabel.text" = "Remaining Time 10:00";
+
+"StartScreen.Button.title" = "Start";
+"StartScreen.Subheading.text" = "An Interns Version";
+"StartScreen.Footer.text" = "@powered by Interns '22";
+"StartScreen.HowToButton.title" = "How To Play";
+
+"GameMode.soloButton.title" = "Solo";
+"GameMode.multiplayerButton.title" = "Multiplayer";
+"GameMode.gameModeTitle.text" = "Choose Your Mode";
+
+"HowToScreen.titleText.title" = "Game Rules";
+"HowToScreen.descriptionText.description" = "Players take turns to either place an X or a 0 on the game board. \n\nThe first player to get three of their marks in a row, either horizontally, vertically or diagonally is the proclaimed winner of the round.\n \n The game ends in a tie if either player is unable to connect 3 in a row.";
+"HowToScreen.Modes.titleText.title" = "Game Modes";
+"HowToScreen.Modes.MulitplayerTitle.text" = "Multiplayer";
+"HowToScreen.Modes.Multiplayer.descriptionText.description" = "Test your bond in this fun player vs player mode rival  against your buddy in this endless mode";
+"HowToScreen.Modes.SoloTitle.text" = "Solo";
+"HowToScreen.Modes.Solo.descriptionText.description" = "Solo mode tests your ability to go against our really dope AI system, yes Ruan and Pat AI system. lol.";
+
+"SoloMode.GameNotFound.titleText" = " Error 404, Game mode not found :(";
+
+"TilesIconForCrosses.Icon" = "X";
+"TilesIconForCircles.Icon" = "O";
+
+"PauseModalScreen.RestartButton.Title" = "Restart Game";
+"PauseModalScreen.ExitGameButton.Title" = "Quit Game";
+"PauseModalScreen.HelpPageButton.Title" = "How To Play";
+"PauseModalScreen.PauseHeading.Title" = "Pause Menu";
+
+"Quize.Level.title1" = "Beginner";
+"Quize.Level.title2" = "Intermidiate";
+"Quize.Level.title3" = "Professional";
+
+"Quize.Category.title1" = "General Knowlegde";
+"Quize.Category.title2" = "Books";
+"Quize.Category.title3" = "Film";
+"Quize.Category.title4" = "Music";
+"Quize.Category.title5" = "Video Games";
+"Quize.Category.title6" = "Mythology";
+"Quize.Category.title7" = "Sports";
+"Quize.Category.title8" = "Art";
+"Quize.Category.title9" = "Animals";
+"Quize.Category.title10" = "Vehicles";
+"Quize.Category.title11" = "Comics";
+"Quize.Category.title12" = "Cartoons & Animations";
+
+"Quize.Score.highestScore" = "Highest";
+"Quize.Score.points" = "Points";
+
+"Quize.Navigation.difficulty" = "Difficulty";
+"Quize.Navigation.category" = "Categories";
+"Quize.Navigation.play" = "Let's Play";
+"Quize.Navigation.howToPlay" = "Help";
+
+"Crossword.Direction.Across.title" = "Across";
+"Crossword.Direction.Down.title" = "Down";
+
+"CanvasViewController.alert.defaultAction" = "OK";
+"CanvasViewController.alert.title" = "Let's draw!";
+"LibraryTableViewController.UserDefaults.defaults" = "showOnboarding";
+"Main.Play.hearder" = "Time Remaining:";
